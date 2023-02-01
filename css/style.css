@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+/* Background */
+.background {
+  background: url(../png/bg/bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+/* Left */
+.nav__all {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  margin-top: 15px;
+}
+ul {
+  display: flex;
+  justify-content: start;
+  gap: 48px;
+  margin-left: 56px;
+  align-items: center;
+}
+li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  color: #ffffff;
+  list-style: none;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  cursor: pointer;
+}
+/* Center */
+.center__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 116px;
+  width: 730px;
+  margin: 0 auto;
+}
+.title h2 {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+.text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  color: #ffffff;
+}
+/* Card End */
+.fourth__card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.text--all {
+  width: 100%;
+  margin-top: 37px;
+}
+.png{
+  text-align: center;
+}
+.card h2 {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+
+.text--all span {
+  color: #77b900;
+ 
+}
+.text--all p {
+  width: 255px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.3px;
+
+  color: #e1e1e1;
+}
+.card--three p {
+  width: 255px;
+}
+/* Eng pasi */
+button {
+  padding: 17.5px 60px;
+  background-color: #77b900;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
